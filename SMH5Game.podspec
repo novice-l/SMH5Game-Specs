@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 
   s.source           = { :http => 'https://github.com/novice-l/SMH5Game-Specs/releases/download/2.0.5/SMH5Game.xcframework.zip' }
 
-  s.resource_bundles = {
-  'SMH5GameBundle' => ['SMH5Game.xcframework/**/SMH5Game.bundle']
-  }
+  s.resources = ['SMH5Game.xcframework/**/SMH5Game.bundle']
 
   s.ios.deployment_target = '12.0'
 
