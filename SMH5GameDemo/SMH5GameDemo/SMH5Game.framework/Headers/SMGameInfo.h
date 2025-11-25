@@ -65,6 +65,9 @@
 /// 是否需要vip
 @property (nonatomic, assign) BOOL needVip;
 
+/// 特别推荐
+@property (nonatomic, assign) BOOL specialRecommend;
+
 @end
 
 
