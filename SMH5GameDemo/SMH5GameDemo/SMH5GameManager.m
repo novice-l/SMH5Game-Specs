@@ -26,7 +26,8 @@
 
 - (void)start {
     // 注册服务并设置游戏监听
-    [SMGameServices registerApiKey:@"VmtaYVYyRXlSa2hTV0doaFVrVndhRnBYZUVwTlZuQldXa2M1YTJGNlZsbFdiR2h6V1ZaYVdGbDZRbUZXYlZKTFZGWmFTbVE" name:@"纳晶云-2"];
+    // 在此替换为自己的key和name
+    [SMGameServices registerApiKey:@"dGhpcyBpcyBhIGV4YW1wbGVVeko0VTFFeGJGZFVXR3hWVjBkb2NWVnNaRk5oUmxaeFUycFNhVTkWFdIQlRZa1pLYzJ" name:@"超级app"];
     SMGameServices.sharedServices.delegate = self;
     
     // 设置用户信息，不设置默认临时用户
